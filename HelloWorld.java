@@ -34,7 +34,7 @@ public class HelloWorld {
     //    PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
      //   File file = new File("/workspace/1tester/results.txt");
     // FileWriter fw = new FileWriter("/workspace/1tester/results.txt", true);
-        FileWriter fw = new FileWriter("/home/adminas/Out.txt", true);
+        FileWriter fw = new FileWriter("/home/adminas/test01/Out.txt", true);
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter out = new PrintWriter(bw);
         Date date = new Date();
