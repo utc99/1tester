@@ -39,7 +39,7 @@ public class HelloWorld {
         PrintWriter out = new PrintWriter(bw);
         Date date = new Date();
 
-        out.printf("Hello %s! The program has run successfully. ", "Mantas");
+        out.printf("Hello %s! The program has run successfully. This is an updated version. ", "Mantas");
         out.printf("The time is %s", date);
         out.println();
         out.close();
