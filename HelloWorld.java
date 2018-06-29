@@ -34,12 +34,12 @@ public class HelloWorld {
     //    PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
      //   File file = new File("/workspace/1tester/results.txt");
     // FileWriter fw = new FileWriter("/workspace/1tester/results.txt", true);
-        FileWriter fw = new FileWriter("/home/adminas/test01/Out.txt", true);
+        FileWriter fw = new FileWriter("/tester01/Out.txt", true);
         BufferedWriter bw = new BufferedWriter(fw);
         PrintWriter out = new PrintWriter(bw);
         Date date = new Date();
 
-        out.printf("Hello %s! The program has run successfully. This is an updated version v08. ", "Mantas");
+        out.printf("Hello %s! The program has run successfully. This is an updated version v09. ", "Mantas");
         out.printf("The time is %s", date);
         out.println();
         out.close();
